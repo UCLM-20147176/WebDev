@@ -1,0 +1,81 @@
+<html>
+<style>
+    .Label {
+        text-align: center;
+        background-color: skyblue;
+    }
+
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+</style>
+
+    
+<center>
+    <table border="1">
+        <tr class="Label"> 
+            <td>Name</td>
+            <td>Value</td>
+        </tr>
+        <tr>
+            <form>
+                <td><label for="name">Name</label></td>
+                <td class="Input"><input type="text" id="name" name="name"></td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td><label for="sex">Sex</label></td>
+                <td>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="Male">Male</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="Female">Female</label><br>
+                </td>
+            </form>
+        </tr>
+        <tr>
+            <td>
+                <form action="/action_page.php">
+                    <label for="Eye color">Eye color</label> 
+                </form>
+            </td>
+            <td>
+                <form action="/action_page.php"></form>
+                     <select name="cars" id="cars">
+                      <option value="Brown">Brown</option>
+                      <option value="Blue">Blue</option>
+                    </select>
+                 </form>     
+            </td>
+        </tr>
+        <tr>
+            <form>
+                <td><label for="Check all that apply">Check all that apply</label></td>
+                <td>
+                    <input type="checkbox" id="Over 6 foot tall" name="Over 6 foot tall">
+                    <label for="Over 6 foot tall">Over 6 foot tall</label> <br>
+                    <input type="checkbox" id="Over 200 pounds" name="Over 200 pounds">
+                    <label for="Over 200 pounds">Over 200 pounds</label>
+                </td>
+            </form>
+        </tr>
+        <tr style="height:20px">
+            <form>
+            <td colspan="2">
+            <label for="Describe your athletic ability">Describe your athletic ability:</label><br>
+            <textarea name="text" id="text" cols="50" rows="10"></textarea>
+            </td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td colspan="2">
+                    <center><button>Enter my information</button></center>
+                </td>
+            </form>
+        </tr>
+    </table>
+    </center>
+</html>
